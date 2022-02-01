@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(#b92727, #ee8524);
+}
+
+header, .text-container {
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    bottom: 23px;
+    height: 60px;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+a {
+    background-color: rgb(238, 238, 238);
+    color: black;
+    display: block;
+    width: 75px;
+    margin: 20px auto;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.instructions {
+    font-weight: 600;
+    display: none;
+    margin: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-container {
+    height: 350px;
+    margin: 20px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 2px;
+    overflow: scroll;
+    background-color: white;
+}
+
+p {
+    margin: 5px;
+    padding: 5px;
+}
+
+form {
+    width: 270px;
+    margin: 10px auto;
+}
