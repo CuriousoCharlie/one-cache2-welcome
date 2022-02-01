@@ -46,7 +46,7 @@ p {
 
 .text-container {
     height: 350px;
-    margin: 20px;
+    margin: 20px auto;
     width: 90%;
     border: 1px solid black;
     border-radius: 2px;
@@ -60,6 +60,6 @@ p {
 }
 
 form {
-    width: 270px;
+    width: 313px;
     margin: 10px auto;
 }
