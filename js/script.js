@@ -65,7 +65,7 @@ const GameLogic = {
 
 form.onsubmit = e => {
     e.preventDefault();
-    let input = form.userInput.value;
+    let input = form.userInput.value.toLowerCase();
     GameLogic.checkInput(input);
     form.reset();
 };
